@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Disclaimer:
+ By downloading, accessing or using this software, you signify your assent to this disclaimer. 
+ The contents of this app, including without limitation, all data, information, text, links and other
+ materials are meant to be used for informational purposes only. We do not take responsibility for 
+ decisions taken by the user based solely on the information provided in this software.
+ Nothing contained in this software is intended to create a physician-patient relationship, to replace
+ the servicesof a licensed, trained physician or health professional or to be a substitute for medical 
+ advice of a licensed physician or trained health professional. You should consult a licensed physician 
+ in all matters relating to your health. 
+ You hereby agree that you shall not make any health or medical related decision based in whole or in 
+ part on anything contained in this software.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+1)  Start MATLAB by executing EMG_Classifier.m
+2)  Select EDITOR (4th on the top)
+3)  Click on Run
+4)  Select participant folder which contains the c3d files you want to have evaluated
+(To test the tool you can use _SampleData/quick or other folders in _SampleData)
+*)"Starting parallel pool..." should appear at the bottom (Command Window)
+5)  Wait until script is finished (time demand depends on the number of c3d files evaluated and your computer specs)
+*)"Finished everything in..." should appear at the bottom (Command Window) 
+
+6)  In the folder you have selected at step 4) you will find a new folder named "Classifier_..."
+7)  In Classifier_.../XLSX you will have the EMG classifications on Sheet1 of the .xlsx file
+8)  Check the classification performance by looking through Classifier_.../Images
+9)  If you disagree with any automatic classification:
+      *put the image in the correct folder and
+      *run ReClassifier.m in _Custom Scripts 
+
+10) Additionally you can combine all participant .xlsx files into one acquisition .xlsx by running XLSX_Combo.m in _Custom Scripts
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Thank you for using the EMG_Classifier!
+
+
+Cheers,
+Riad
