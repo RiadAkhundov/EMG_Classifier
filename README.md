@@ -9,4 +9,4 @@
 * All additional info in Tutorial.txt
 
 ### Contribution guidelines ###
-* Contact repo owner and admin: Riad.Akhundov@uon.edu.au
+* Contact repository owner and admin: Riad.Akhundov@uon.edu.au
