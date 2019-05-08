@@ -5,7 +5,7 @@
 * Version: 0.99a
 
 ### How to set it up? ###
-* Requires MATLAB (2017b or newer, nexwest MATLAB version is strongly recommended), Deep Learning Toolbox and the Parallel Computing Toolbox.
+* Requires MATLAB (2017b or newer, newest MATLAB version is strongly recommended), Deep Learning Toolbox and the Parallel Computing Toolbox.
 * All additional info in Tutorial.txt
 
 ### Contribution guidelines ###
