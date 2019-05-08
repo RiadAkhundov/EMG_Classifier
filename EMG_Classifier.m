@@ -96,7 +96,8 @@ mkdir([dirImages, fsp, '4_NoSignal']);
 
 dirXLSX = [dirClassifier, fsp, 'XLSX'];
 mkdir(dirXLSX);
-addpath([pwd, fsp,'bin']); %Add path to required functions and BTK
+addpath([pwd, fsp,'bin']); %Add path to required functions
+addpath([pwd, fsp,'bin', fsp,'btk']); %Add path to BTK
 
 %XLSX directories
 old_XLSX = [pwd, fsp, '_Custom Scripts', fsp, 'Classifications_Template.xlsx'];
