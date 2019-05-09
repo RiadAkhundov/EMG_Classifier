@@ -2,7 +2,7 @@ function imgCreator(parLoop,header,body,body2,EMG_amps,dirImages)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                    imgCreator for the EMG Classifier                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Riad Akhundov <r.akhundov@griffith.edu.au>
+% Riad Akhundov <Riad.Akhundov@uon.edu.au>
 %_____________________________________________________________________________
 %Function for creating EMG images based on number of c3d files in acquisition.
 
