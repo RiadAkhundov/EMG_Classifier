@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                              EMG Classifier                                %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Riad Akhundov <r.akhundov@griffith.edu.au>
+% Riad Akhundov <Riad.Akhundov@uon.edu.au>
 
 %Main script for classifying EMG quality: Read a participant-folder containing
 %c3d files, classify the EMG quality, save results in xlsx files and sort 
