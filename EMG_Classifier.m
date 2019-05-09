@@ -20,7 +20,7 @@
 % part on anything contained in this software.
 
 %%%Requirements: 
-%1) MATLAB 2017b or newer (2018b or newer recommended)
+%1) MATLAB 2018b or newer (newest MATLAB version is strongly recommended)
 %2) Neural Network Toolbox (renamed to Deep Learning Toolbox since 2018a)
 %3) Parallel Computing Toolbox (also called Distributed Computing Toolbox)
 
@@ -40,12 +40,12 @@ end
 %Check for requiured MATLAB version & Toolboxes
 toolbox_helper(1:5,1) = {'Correct MATLAB Version';'License - Neural Network';'License - Parallel Computing';...
     'Installed - Neural Network';'Installed - Parallel Computing'};
-toolbox_helper(1:5,2) = num2cell([~verLessThan('matlab','9.3'); license('test','Neural_Network_Toolbox');...
+toolbox_helper(1:5,2) = num2cell([~verLessThan('matlab','9.5'); license('test','Neural_Network_Toolbox');...
     license('test','Distrib_Computing_Toolbox');~isempty(ver('nnet'));~isempty(ver('distcomp'))]);
 
 if any(cell2mat(toolbox_helper(:,2)) == 0)
     disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-    disp('%%%% ERROR: MATLAB version 2017b or newer required %%%%')
+    disp('%%%% ERROR: MATLAB version 2018b or newer required %%%%')
     disp('%%%%        Neural Network Toolbox required        %%%%')
     disp('%%%%        Parallel Computing Toolbox required    %%%%')
     disp('%%%%                                               %%%%')
