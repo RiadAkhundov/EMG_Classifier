@@ -9,7 +9,7 @@
 * All additional info in Tutorial.txt
 
 ### How to download it (the easy way)? ###
-If you are new to Git/ have trouble with LFS /don't want to get GitBash just use the following link to download the newest version of the EMG Classifier: https://mega.nz/#!ZZBzGYaS!Kb7DsnUwhBqHiql3AnQPqLBJ9pb2vbDAKTXSY47Ofhg
+If you are new to Git/ have trouble with LFS /don't want to get GitBash just use the following link to download the newest version of the EMG Classifier: http://bit.ly/EMG_Classifier_v099a
 
 ### Contribution guidelines ###
 * Contact repository owner and admin: Riad.Akhundov@uon.edu.au
