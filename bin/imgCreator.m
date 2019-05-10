@@ -36,7 +36,7 @@ if parLoop == 1
             set(gca,'YColor','none','XColor','none')
 
             %Creates images all over in the dir even if they already exist 
-            print (strcat(dirImages, fsp, header(4,i)), '-djpeg', '-r100'); 
+            print (strcat(dirImages, fsp, header(4,i), '.jpg'), '-djpeg', '-r100'); 
             close(f); 
         end
     end
