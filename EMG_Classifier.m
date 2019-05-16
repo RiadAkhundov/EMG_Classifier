@@ -155,6 +155,8 @@ for s=1:numTrials
     label2 = ~(contains(upper(matFiles(s).analogsInfo.label2),'CHAN')+...   %Assuming EMG is not called "Channel"
         contains(upper(matFiles(s).analogsInfo.label2),'TIMING')+...        %Assuming EMG is not called "Timing_gate"
         contains(upper(matFiles(s).analogsInfo.label2),'TG')+...            %Assuming EMG is not called "TG" for Timing_gate
+        contains(upper(matFiles(s).analogsInfo.label2),'WIRE')+...          %Assuming EMG is not called "Wireless"
+        contains(upper(matFiles(s).analogsInfo.label2),'DIRECT')+...        %Assuming EMG is not called "Direct"
         contains(upper(matFiles(s).analogsInfo.label2),'SYNC'));            %Assuming EMG is not called "Sync"
                                                                             %<-- Add further exclusions here if required
     units2 = contains(upper(matFiles(s).analogsInfo.units2),'V');           %EMG units are always in V 
