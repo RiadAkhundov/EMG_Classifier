@@ -12,11 +12,13 @@ Disclaimer:
  part on anything contained in this software.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+!)  The EMG Classifier has to be run on each task (e.g. walking, running, squatting, etc.) separately, as the amplitudes of 
+    muscle activation between tasks are not comparable which will lead to distorted images and a bad classification accuracy. 
 
 1)  Start MATLAB by executing EMG_Classifier.m
 2)  Select EDITOR (4th on the top)
 3)  Click on Run
-4)  Select participant folder which contains the c3d files you want to have evaluated
+4)  Select participant folder which contains the c3d files you want to have evaluated (separate tasks in different folders)
 (To test the tool you can use _SampleData/quick or other folders in _SampleData)
 *)"Starting parallel pool..." should appear at the bottom (Command Window)
 5)  Wait until script is finished (time demand depends on the number of c3d files evaluated and your computer specs)
